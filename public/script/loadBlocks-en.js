@@ -102,6 +102,7 @@ function initContactForm() {
       try {
         // Заменить "http://localhost:8080" на домен с сервером
         const serverUrl = "http://localhost:8080/sendMessage";
+        
         const response = await fetch(serverUrl, {
           method: "POST",
           headers: {
